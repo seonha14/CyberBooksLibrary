@@ -219,13 +219,16 @@
         background: var(--card-dark); 
     }
     
-    /* --- PERBAIKAN: Media Query untuk Mobile View 1 Kolom --- */
+    /* Aturan untuk Mobile View 1 Kolom */
     @media (max-width: 800px) {
         body {
             padding: 0 1rem;
         }
         .book-grid {
             grid-template-columns: 1fr;
+        }
+        h1 {
+            font-size: 2rem;
         }
     }
   </style>
